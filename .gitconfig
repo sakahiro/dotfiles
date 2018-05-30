@@ -1,0 +1,21 @@
+[user]
+  name = sakahiro
+  email = h.s.bbjss383@gmail.com
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
+  compactionHeuristic = true
+[merge]
+  tool = opendiff
+[alias]
+  st = status
+  s = status -s
+  co = checkout
+  br = branch
+  ci = commit
+  lg = log --oneline --decorate -10
+[core]
+  autocrlf = input
+[url "https://GitHub-84A02E58-0FF0-4DF7-AF2C-673A5C3AD5B5:x-oauth-basic@github.com/"]
+	insteadOf = https://github.com/
